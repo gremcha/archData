@@ -1,0 +1,36 @@
+# Global properties
+title-text: ""
+desktop-image : "background.png"
+desktop-color: "#000000"
+terminal-font: "Ubuntu Mono Regular 24"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "1920"
+terminal-height: "1080"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 50%
+  top = 45%
+  width = 45%
+  height = 60%
+  item_font = "Ubuntu Mono Regular 24"
+  item_color = "#15392B"
+  selected_item_color = "#15392b"
+  selected_item_font = "Ubuntu Mono Bold 24"
+  item_height = 40
+  item_spacing = 5
+}
+
++ progress_bar {
+    left = 10%
+    top = 90%
+    width = 80%
+    height = 2%
+    id = "__timeout__"
+    text = ""
+    bg_color = "#FFFFFF"
+    fg_color = "#000000"
+}
